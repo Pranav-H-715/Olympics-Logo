@@ -1,0 +1,47 @@
+<html>
+<head>
+    <Title>Olympics</Title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <center>
+        <h1>Olympics Logo</h1>
+        <canvas id="canvas" height="450" width="800"></canvas>
+        </center>
+        <script> 
+        var canvas= document.getElementById("canvas")
+        var context=canvas.getContext("2d")
+        context.beginPath()
+            context.strokeStyle="blue"
+            context.lineWidth=7
+            context.arc(250,210,40,0,Math.PI*2)
+            context.stroke()
+            
+            context.beginPath()
+            context.strokeStyle="black"
+            context.lineWidth=7
+            context.arc(350,210,40,0,Math.PI*2)
+            context.stroke()
+            
+            context.beginPath()
+            context.strokeStyle="red"
+            context.lineWidth=7
+            context.arc(450,210,40,0,Math.PI*2)
+            context.stroke()
+            
+            context.beginPath()
+            context.strokeStyle="orange"
+            context.lineWidth=7
+            context.arc(300,250,40,0,Math.PI*2)
+            context.stroke()
+            
+            context.beginPath()
+            context.strokeStyle="green"
+            context.lineWidth=7
+            context.arc(400,250,40,0,Math.PI*2)
+            context.stroke()
+            
+            
+        </script>
+    </body>
+</html>
